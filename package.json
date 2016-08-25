@@ -1,0 +1,33 @@
+{
+  "name": "pnglib-es6",
+  "version": "1.0.0",
+  "description": "Create png images in pure javascript (modern and faster ES6 version using typed Arrays)",
+  "main": "src/pnglib-es6.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://IjzerenHein@github.com/IjzerenHein/pnglib-es6.git"
+  },
+  "keywords": [
+    "png",
+    "pnglib",
+    "es6",
+    "pngjs"
+  ],
+  "author": "H.F.J. Rutjes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IjzerenHein/pnglib-es6/issues"
+  },
+  "homepage": "https://github.com/IjzerenHein/pnglib-es6#readme",
+  "dependencies": {
+    "base64-js": "^1.1.2",
+    "tinycolor2": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react-native": "^1.9.0",
+    "file-loader": "^0.9.0",
+    "webpack": "^1.13.2"
+  }
+}
