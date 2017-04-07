@@ -29,6 +29,7 @@ const greenColor = image.createColor('rgba(0, 255, 0, 1)');
 
 // Do some pixel drawing
 image.setPixel(50, 50, redColor);
+const color = image.getPixel(50, 50);
 ...
 
 // Convert image to base-64
