@@ -207,4 +207,9 @@ export default class PNGImage {
 		const i = y * (this.width + 1) + x + 1;
 		this.buffer[this.idat_offs + 8 + 2 + 5 * Math.floor((i / 0xffff) + 1) + i] = color;
 	}
+
+	getPixel(x, y) {
+		const i = y * (this.width + 1) + x + 1;
+		return this.buffer[this.idat_offs + 8 + 2 + 5 * Math.floor((i / 0xffff) + 1) + i];
+	}
 }

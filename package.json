@@ -1,6 +1,6 @@
 {
   "name": "pnglib-es6",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create png images in pure javascript (modern and faster ES6 version using typed Arrays)",
   "main": "src/pnglib-es6.js",
   "repository": {
